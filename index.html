@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="People Capital Job - Consultora de RR.HH. y ETT. Selección, captación y consultoría de personal.">
+<link rel="icon" href="logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>People Capital Job | Consultoría de RR.HH. y ETT</title>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a href="#home" class="brand"><span class="brand-logo-wrap"><img src="logo.jpeg" alt="People Capital Job - Consultoría de RR.HH."></span></a>
+    <nav class="links" id="menu">
+      <a href="#home">Inicio</a>
+      <a href="jobs.html">Empleos</a>
+      <a href="#sobre-nosotros">Sobre nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-controls="menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+<section class="hero" id="home">
+  <!-- Video de fondo: colocar video.mp4 (y poster.jpg) junto a este archivo -->
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="poster.jpg" aria-hidden="true"><source src="video.mp4" type="video/mp4"></video>
+  <div class="hero-shade"></div>
+  <div class="hero-inner">
+    <div class="eyebrow">Consultora de RR.HH. y ETT</div>
+    <h1>Necesitas personal, <em>nosotros lo encontramos.</em></h1>
+    <p>Buscamos y seleccionamos a los profesionales que tu empresa necesita, para que te centres en tu negocio.</p>
+    <div class="btn-row">
+      <a href="jobs.html" class="btn btn-primary">Ver empleos</a>
+      <a href="#servicios" class="btn btn-ghost">Nuestros servicios</a>
+    </div>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><b>People Capital Job</b><span>Consultoría de RR.HH.</span></div>
+    <div class="stat"><b>3</b><span>Tipos de servicios</span></div>
+    <!-- TODO: cifra provisional, sustituir por el dato real del cliente -->
+    <div class="stat"><b data-count="250">0</b><span>Candidatos encontrados</span></div>
+  </div>
+</div>
+
+<section id="sobre-nosotros">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Sobre nosotros</div>
+      <h2>Necesitas personal, nosotros lo encontramos.</h2>
+    </div>
+    <div class="about-copy reveal">
+      <p>Somos una empresa joven dedicada a la solución en la búsqueda de personal para empresas las cuales atraviesan cierta dificultad a la hora de encontrar mano de obra cualificada para suplir las necesidades de su empresa.</p>
+      <p>Estamos a disposición de cualquier empresa para diferentes tareas como outsourcing (subcontratación de personal), captación y consultoría en recursos humanos.</p>
+      <div class="closing">Estamos para ti</div>
+    </div>
+    <div class="section-head reveal" style="margin:56px 0 28px;"><div class="eyebrow">Lo que nos guía</div><h2>Cómo trabajamos</h2></div>
+    <div class="value-grid">
+      <div class="value-card reveal"><h3>Selección de talento</h3><p>Identificamos y seleccionamos profesionales que se ajustan a las necesidades de cada empresa, teniendo en cuenta su experiencia, capacidades y perfil.</p></div>
+      <div class="value-card reveal"><h3>Cercanía y compromiso</h3><p>Mantenemos una comunicación cercana con empresas y trabajadores, acompañando cada proceso para encontrar soluciones ágiles y adaptadas a cada necesidad.</p></div>
+      <div class="value-card reveal"><h3>Agilidad y cumplimiento</h3><p>Gestionamos cada incorporación de forma eficiente y profesional, garantizando el cumplimiento de los requisitos laborales y las necesidades de nuestros clientes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="servicios">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">¿Qué hacemos?</div>
+      <h2>Tres servicios, un equipo</h2>
+      <p>Realizado por nosotros.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card reveal">
+        <svg class="icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="17" cy="16" r="6" stroke="#0b1f3f" stroke-width="2.5"/><path d="M5 38c0-7 5-12 12-12s12 5 12 12" stroke="#0b1f3f" stroke-width="2.5"/><path d="M32 22h12M38 16v12" stroke="#1f5fa6" stroke-width="2.5"/></svg>
+        <h3>1. Servicio ETT (subcontratación)</h3>
+        <p>Subcontratación de personal a través de nosotros. Nos pides un perfil y nosotros nos encargamos de todo:</p>
+        <ul class="sd-list"><li>Encontramos el candidato.</li><li>El cliente está de acuerdo con el perfil del candidato.</li><li>Nos encargamos de la contratación desde el inicio hasta el final de la relación laboral.</li></ul>
+      </div>
+      <div class="service-card reveal">
+        <svg class="icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="21" cy="21" r="12" stroke="#0b1f3f" stroke-width="2.5"/><path d="M30 30l11 11" stroke="#1f5fa6" stroke-width="3" stroke-linecap="round"/></svg>
+        <h3>2. Headhunting (captación de personal)</h3>
+        <p>Búsqueda de personal. Nos pides un perfil y nos encargamos de encontrarlo:</p>
+        <ul class="sd-list"><li>Encontramos el candidato.</li><li>El cliente está de acuerdo con el perfil del candidato.</li><li>El candidato pasa a formar parte de la plantilla de tu empresa.</li></ul>
+      </div>
+      <div class="service-card reveal">
+        <svg class="icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M8 38V10M8 38h32" stroke="#0b1f3f" stroke-width="2.5" stroke-linecap="round"/><path d="M14 30l9-9 6 5 11-14" stroke="#1f5fa6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>3. Consultoría de RR.HH.</h3>
+        <p>Consultoría de buenas prácticas de RR.HH. Ponemos a tu disposición nuestros mejores profesionales para:</p>
+        <ul class="sd-list"><li>Mejorar la calidad de la selección de personal.</li><li>Reducir la rotación y el absentismo laboral.</li><li>Mejorar la satisfacción y el clima laboral.</li><li>Optimizar la gestión y productividad de los equipos.</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="eyebrow">Contacto</div>
+        <h2>Encuéntranos</h2>
+        <p>Estamos en Carrer del Mar, en la zona de Sant Adrià de Besòs.</p>
+        <div class="addr-block"><div><b>Correo electrónico</b><span>arian.jobs@peoplecapitalgroup.com</span></div></div>
+        <div class="addr-block"><div><b>Teléfono</b><span>+34 632 552 102</span></div></div>
+        <div class="addr-block"><div><b>Dirección</b><span>Carrer del Mar 18</span></div></div>
+        <div class="addr-block"><div><b>Código postal</b><span>08930 Sant Adrià de Besòs</span></div></div>
+      </div>
+      <div class="map-frame reveal">
+        <iframe title="Mapa de la oficina" src="https://maps.google.com/maps?q=Carrer+del+Mar+16,+Sant+Adria+de+Besos,+Barcelona&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div><b>People Capital Job</b> — Consultoría de RR.HH. y ETT</div>
+    <div>Teléfono: +34 632 552 102<br>Correo electrónico: arian.jobs@peoplecapitalgroup.com</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
